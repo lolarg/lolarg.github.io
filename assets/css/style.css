@@ -240,6 +240,22 @@ nav.nav-w {
   width: 100%;
 }
 
+
+.texto {
+  overflow: hidden;
+  max-height: 0;
+  text-align: justify;
+}
+
+.boton {
+  padding: 10px;
+}
+
+.texto:target p {
+  padding: 10px;
+  
+}
+
 @media (max-width: 767px) {
   .shape-left {
     display: none;
