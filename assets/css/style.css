@@ -2,11 +2,13 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 html {
-  scroll-behavior: smooth;
+  
 }
+
 
 .blurple {
   color: #7289da;
@@ -147,15 +149,15 @@ nav.nav-w {
 }
 
 .line {
-  background: #6900d1;
-  background: #3b00d1;
+  background: #00d1b2;
+  background: #00d1b2;
   width: 150px;
   height: 5px;
 }
 
 .line2 {
-  background: #3400d1;
-  background: #3f00d1;
+  background: #00d1b2;
+  background: #00d1b2;
   width: 75px;
   height: 5px;
 }
@@ -170,6 +172,7 @@ nav.nav-w {
 
 .title.lined {
   margin-bottom: 0px;
+  padding-top: 25px;
 }
 
 .vert-move {
