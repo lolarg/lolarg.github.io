@@ -14,23 +14,6 @@ html {
   color: #7289da;
 }
 
-.fa.fa-hover-hidden {
-  color: #FF260F;
-}
-.fa.fa-hover-show {
-  color: #549431;
-}
-
-* > .fa.fa-hover-show,
-*:hover > .fa.fa-hover-hidden {
-    display: none;
-}
-
-*:hover > .fa.fa-hover-show {
-    display: inline-block;
-}
-
-
 .bg-base {
   background-color: #1a2634 !important;
 }
