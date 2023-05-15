@@ -38,8 +38,6 @@ summary {
 .diccionario::before {
   content: '+';
   padding-right: 1rem;
-  -webkit-animation: mover 0.5s infinite alternate;
-  animation: mover 0.5s infinite alternate;
 }
 
 details[open] .diccionario::before {
