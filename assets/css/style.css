@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 
 .blurple {
   color: #7289da;
