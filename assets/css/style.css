@@ -25,6 +25,9 @@ body::-webkit-scrollbar {
 
 summary {
   list-style: none;
+}
+
+summary {
   cursor: pointer;
 }
 
