@@ -18,6 +18,32 @@ body::-webkit-scrollbar {
   color: #7289da;
 }
 
+.diccionario {
+  color: #ed4245;
+
+}
+
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.ml-13 {
+  margin-left: 1rem;
+}
+
+.diccionario::before {
+  content: '+';
+  padding-right: 1rem;
+  -webkit-animation: mover 0.5s infinite alternate;
+  animation: mover 0.5s infinite alternate;
+}
+
+details[open] .diccionario::before {
+  content: '-';
+}
+
+
 .bg-base {
   background-color: #1a2634 !important;
 }
@@ -165,6 +191,8 @@ nav.nav-w {
   width: 75px;
   height: 5px;
 }
+
+
 
 .line-center {
   margin: 0 auto;
