@@ -42,7 +42,7 @@
       aria-label="main navigation"
     >
       <div id="navbarBasicExample" class="navbar-brand mt-2 mb-2">
-        <a class="navbar-item" href="#">
+        <a class="navbar-item" href="https://lolarg.github.io/">
           <strong>LOL ARGENTINA</strong>
 
           <!-- or if you want to use image -->
@@ -490,7 +490,7 @@
             class="blurple has-text-weight-bold"
             target="_blank">JstnLT</a>. -->
             Si querés reportar un bug o sugerir una caracteristica,  
-           <a href="https://github.com/JastinXyz/discord-bot-landing-page-web"
+           <a href="https://discord.gg/lolarg"
             class="blurple has-text-weight-bold"
             target="_blank"
             >únete al servidor</a
@@ -504,5 +504,32 @@
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
   </body>
 </html>
